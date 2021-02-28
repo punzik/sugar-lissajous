@@ -9,8 +9,8 @@ placed by [nextpnr](https://github.com/YosysHQ/nextpnr), verefied by
 GUI use [Racket](https://racket-lang.org/) and [GNU
 Octave](https://www.gnu.org/software/octave/index).
 
-Video 1: https://youtu.be/R9meEMrbPAM
+Video 1: https://youtu.be/959pEzaWLlk
 
-Video 2: https://youtu.be/H2083E0BFIM
+Video 2: https://youtu.be/qtpC32GN3NM
 
 ![Photo](photo.jpg)

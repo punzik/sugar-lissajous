@@ -1,0 +1,80 @@
+0CF  // ---- Power control B
+100  // default
+1C9  // (or C1) непонятно что это. По документу вообще нужно 89 или 81
+130  // default
+
+0ED  // ---- Power on sequence
+164  // ?
+103  // ?
+112  // ?
+181  // DDVDH enhance mode
+
+0E8  // ---- Driver timing control A
+185  // Gate driver overlap timing +1unit (?)
+110  // ?
+17A  // Precharge (default)
+
+0CB  // ---- Power control A
+139  // default
+12C  // default
+100  // default
+134  // default (Vcore = 1.6V)
+102  // default (DDVDH = 5.6V)
+
+0F7  // ---- Pump ratio control
+120  // DDVDH = 2xVCI
+
+0EA  // ---- Driver timing control B
+100  // ?
+100  // default
+
+0C0  // ---- Power control 1
+11B  // VRH = 4.2V
+
+0C1  // ---- Power control 2
+100  // ?
+
+0C5  // ---- VCOM control 1
+130  // (or 3F) VCOMH = 3.9V
+130  // (or 3C) VCOML = -1.3V
+
+0C7  // ---- VCOM control 2
+1B7  // VCOMH = VMH-9, VCOML = VML-9
+
+036  // ---- Memory Access Control
+108  // RGB reverse
+
+03A  // ---- Pixel format set
+155  // 66 - 18 bit per pixel, 55 - 16 bit per pixel
+
+0F6  // ---- Interface control
+101  // default
+110  // EPF=01 (RGB mapping to 16-bit word)
+
+0B1  // ---- Frame rate control
+100  // fosc/1
+11A  // 26 clock per line (default - 1B)
+
+0B6  // ---- Display Function Control (отсутствуют два параметра)
+10A  // default
+1A2  // Reverse shift direction
+
+0F2  // ---- 3Gamma Function Disable
+100
+
+026  // ---- Gamma curve
+101  // default
+
+02B  // ---- Page address set 0..319
+100
+100
+101
+13f
+
+02A  // ---- Column address set 0..239
+100
+100
+100
+1ef
+
+011  // ---- Exit Sleep

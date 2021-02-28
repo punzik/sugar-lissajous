@@ -1,0 +1,2 @@
+-I./obj_dir
+-I/usr/share/verilator/include

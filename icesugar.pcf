@@ -54,8 +54,11 @@ set_io -nowarn P4_2     20
 set_io -nowarn P4_3     19
 set_io -nowarn P4_4     18
 
-#spi
+# spi
 set_io -nowarn SPI_SS   16
 set_io -nowarn SPI_SCK  15
 set_io -nowarn SPI_MOSI 17
 set_io -nowarn SPI_MISO 14
+
+# Clock constraint
+set_frequency clock 30

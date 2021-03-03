@@ -24,7 +24,7 @@ $(TOP_BIN): $(TOP_ASC)
 # Place and rouite
 $(TOP_ASC): $(TOP_JSON) $(PCF)
 	nextpnr-ice40 -q -l $(BUILD_DIR)/nextpnr.log --$(FAMILY) --package $(PACKAGE) \
-		--freq $(FREQ) --top $(TOP) --pcf $(PCF) --asc $(TOP_ASC) --json $(TOP_JSON) \
+		--top $(TOP) --pcf $(PCF) --asc $(TOP_ASC) --json $(TOP_JSON) \
 		$(DOSVG)
 
 # Synthesys
